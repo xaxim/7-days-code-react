@@ -6,9 +6,11 @@ const AssinaturaNewsletter = () => {
     <div className={styles.assinaturaNewsletter}>
       <div className={styles.assinaturaNewsletter__container}>
         <div className={styles.assinaturaNewsletter__container__text}>
-          <h1>
+          <h1 className={styles.assinaturaNewsletter__container__headersmall}>
             Sua casa com as
             <br />
+          </h1>
+          <h1>
             <strong>
               melhores <br /> plantas
             </strong>
